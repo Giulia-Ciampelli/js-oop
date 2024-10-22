@@ -31,6 +31,14 @@ class Veicolo {
         this.porte = porte;
         this.carburante = carburante;
     }
+
+    getInfo() {
+
+    }
+
+    getAge() {
+        
+    }
 }
 const macchina = new Veicolo('Fiat', 2019, 'blu');
 console.log(macchina);
