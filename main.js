@@ -57,9 +57,11 @@ class Automobile extends Veicolo {
 
 // #region variabili
 const macchina = new Veicolo('Fiat', 2019, 'blu');
+const macchina_2 = new Automobile('Opel', 2020, 'nera', 4, 'benzina');
 
 // #endregion variabili
 
 console.log(macchina);
 console.log(macchina.getInfo());
 console.log(macchina.getAge(2024));
+console.log(macchina_2);
