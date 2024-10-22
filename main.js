@@ -36,10 +36,12 @@ class Veicolo {
         return `marca: ${this.marca}, anno: ${this.anno}, colore: ${this.colore}`
     }
 
-    getAge() {
-
+    getAge(currentYear) {
+        let age = currentYear - this.anno;
+        return `anni auto: ${age}`;
     }
 }
 const macchina = new Veicolo('Fiat', 2019, 'blu');
 console.log(macchina);
 console.log(macchina.getInfo());
+console.log(macchina.getAge(2024));
