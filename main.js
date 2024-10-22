@@ -53,6 +53,11 @@ class Veicolo {
 class Automobile extends Veicolo {
     trasmissione;
     modello;
+
+    // funzione per stampare porte e carburante
+    getTechInfo() {
+        return `numero porte: ${this.porte}, alimentazione: ${this.carburante}`
+    }
 }
 
 // #region variabili
@@ -65,3 +70,4 @@ console.log(macchina);
 console.log(macchina.getInfo());
 console.log(macchina.getAge(2024));
 console.log(macchina_2);
+console.log(macchina_2.getTechInfo());
