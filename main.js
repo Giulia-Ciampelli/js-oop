@@ -16,3 +16,15 @@ console.log('im alive');
 // Successivamente:
 // Istanziamo una nuova Automobile (Opel, 2020, nera, con 4 porte, a benzina)
 // Stampiamo il numero di porte e il tipo di carburante.
+
+class Veicolo {
+    marca;
+    anno;
+    colore;
+    porte;
+    carburante;
+
+    constructor (marca, anno, colore, porte, carburante) {
+        
+    }
+}
