@@ -51,7 +51,8 @@ class Veicolo {
 
 // estensione della classe
 class Automobile extends Veicolo {
-    
+    trasmissione;
+    modello;
 }
 
 // #region variabili
